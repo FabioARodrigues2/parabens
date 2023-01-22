@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Dancing+Script:wght@500&family=Poppins:wght@300&family=Roboto&family=Unbounded:wght@200&display=swap');
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, rgb(255, 182, 193), rgb(255, 118, 139));
+    padding: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fabolas {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center-item {
+    display: block;
+    margin: 0 auto;
+}
+
+#card-fabolas {
+    background-color: white;
+    width: 30%;
+    padding: 30px;
+}
+
+.link-fabolas:hover {
+    background-color: rgb(240, 233, 233);
+    transition: 0.2s;
+}
+
+@media (max-width: 600px) {
+    #card-fabolas {
+        width: 60%;
+    }
+}
